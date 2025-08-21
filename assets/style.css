@@ -34,6 +34,7 @@ body {
   font-family: "PP Object Sans";
   background: url(../assets/img/background.jpg) no-repeat center center fixed;
   background-size: cover;
+  color: white;
 }
 
 main {
@@ -109,6 +110,7 @@ main {
   gap: 16px;
   flex: 1 0 0;
   align-self: stretch;
+  height: 100%;
 }
 
 .left-inner-div {
@@ -123,11 +125,117 @@ main {
   border: 2px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(25px);
-  height: 100%;
+  flex: 1;
+}
+
+.left-inner-div-content {
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 .left-inner-div-bottom {
-  flex: 1 0 0;
+  flex: 1 1 0;
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.card-file-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-file-title p {
+  color: rgba(255, 255, 255, 0.5);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "PP Object Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-file-title .card-title-icon {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+}
+
+.intro img {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.open-intro {
+  align-self: stretch;
+
+  font-family: "PP Object Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-button-contact-me {
+  display: inline-flex;
+  width: 100%;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+
+  color: #fff;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "PP Object Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-button-contact-me svg {
+  width: 34px;
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+}
+
+.cta-button-contact-me:hover {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cta-button-contact-me:hover svg:first-of-type {
+  display: none;
+}
+
+.cta-button-contact-me svg:last-of-type {
+  display: none;
+}
+
+.cta-button-contact-me:hover svg:last-of-type {
+  display: inline;
 }
 
 @media screen and (max-width: 1036px) {
