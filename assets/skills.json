@@ -1,0 +1,30 @@
+{
+  "current": [
+    {
+      "name": "HTML5",
+      "svgDir": "assets/svg/html5.svg"
+    },
+    {
+      "name": "HTML5",
+      "svgDir": "assets/svg/html5.svg"
+    },
+    {
+      "name": "CSS3",
+      "svgDir": "assets/svg/html5.svg"
+    }
+  ],
+  "future": [
+    {
+      "name": "HTML5",
+      "svgDir": "assets/svg/html5.svg"
+    },
+    {
+      "name": "HTML5",
+      "svgDir": "assets/svg/html5.svg"
+    },
+    {
+      "name": "Python",
+      "svgDir": "assets/svg/html5.svg"
+    }
+  ]
+}
