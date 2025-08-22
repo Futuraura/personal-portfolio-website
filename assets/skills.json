@@ -5,26 +5,54 @@
       "svgDir": "assets/svg/html5.svg"
     },
     {
-      "name": "HTML5",
-      "svgDir": "assets/svg/html5.svg"
+      "name": "CSS3",
+      "svgDir": "assets/svg/css3.svg"
     },
     {
-      "name": "CSS3",
-      "svgDir": "assets/svg/html5.svg"
+      "name": "Javascript",
+      "svgDir": "assets/svg/javascript.svg"
+    },
+    {
+      "name": "Python",
+      "svgDir": "assets/svg/python.svg"
+    },
+    {
+      "name": "Git",
+      "svgDir": "assets/svg/git.svg"
+    },
+    {
+      "name": "Visual Studio Code",
+      "svgDir": "assets/svg/vscode.svg"
+    },
+    {
+      "name": "Ubuntu Linux",
+      "svgDir": "assets/svg/ubuntu.svg"
+    },
+    {
+      "name": "MySQL / MariaDB",
+      "svgDir": "assets/svg/database.svg"
     }
   ],
   "future": [
     {
-      "name": "HTML5",
-      "svgDir": "assets/svg/html5.svg"
+      "name": "Javascript",
+      "svgDir": "assets/svg/javascript.svg"
     },
     {
-      "name": "HTML5",
-      "svgDir": "assets/svg/html5.svg"
+      "name": "Linux / Bash / Cron",
+      "svgDir": "assets/svg/bash.svg"
     },
     {
-      "name": "Python",
-      "svgDir": "assets/svg/html5.svg"
+      "name": "Git",
+      "svgDir": "assets/svg/git.svg"
+    },
+    {
+      "name": "MySQL / MariaDB",
+      "svgDir": "assets/svg/database.svg"
+    },
+    {
+      "name": "Docker",
+      "svgDir": "assets/svg/docker.svg"
     }
   ]
 }
