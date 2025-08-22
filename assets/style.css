@@ -310,7 +310,8 @@ main {
   flex-wrap: wrap;
 }
 
-.funny-status-info {
+/* For when I learn to code in nextjs */
+/* .funny-status-info {
   display: flex;
   min-width: 120px;
   padding: 16px;
@@ -347,7 +348,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 12px;
+  gap: 4px;
   flex: 1 0 0;
 }
 
@@ -397,12 +398,13 @@ main {
 
 .spotify-progressbar-container {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 12px;
+  gap: 16px;
   flex: 1 0 0;
-}
+} */
 
 @media screen and (max-width: 1036px) {
   main {
