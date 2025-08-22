@@ -342,6 +342,68 @@ main {
   object-fit: cover;
 }
 
+.spotify-player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
+.spotify-now-playing {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.spotify-author {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.spotify-time-elapsed {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.spotify-progressbar {
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 4px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 66.04%,
+      rgba(255, 255, 255, 0.2) 66.04%
+    ),
+    rgba(255, 255, 255, 0.2);
+}
+
+.spotify-progressbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
 @media screen and (max-width: 1036px) {
   main {
     padding: 30px 30px;
