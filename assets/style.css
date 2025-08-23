@@ -310,6 +310,62 @@ main {
   flex-wrap: wrap;
 }
 
+.project-stack-container img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.view-all-projects-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 5px 0;
+  gap: 5px;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+
+  color: #fff;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.view-all-projects-button:hover {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.view-all-projects-button:hover svg:first-of-type {
+  display: none;
+}
+
+.view-all-projects-button svg:last-of-type {
+  display: none;
+}
+
+.view-all-projects-button:hover svg:last-of-type {
+  display: inline;
+}
+
+.cta-button-contact-me svg {
+  width: 34px;
+  height: 100%;
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+}
+
 /* For when I learn to code in nextjs */
 /* .funny-status-info {
   display: flex;
