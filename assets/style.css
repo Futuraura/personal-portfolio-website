@@ -462,6 +462,46 @@ main {
   flex: 1 0 0;
 } */
 
+.weather-time-info-container {
+  display: grid;
+  height: auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-self: stretch;
+  grid-template-rows: fit-content(100%);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.wt-container {
+  display: flex;
+  min-width: 120px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+  grid-row: 1 / span 1;
+
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(25px);
+}
+
+.time-container {
+  grid-column: 1 / span 1;
+}
+
+.date-container {
+  grid-column: 2 / span 1;
+}
+
+.weather-container {
+  grid-column: 3 / span 2;
+}
+
 @media screen and (max-width: 1036px) {
   main {
     padding: 30px 30px;
