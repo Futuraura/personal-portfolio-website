@@ -26,6 +26,56 @@ main {
   align-self: stretch;
 }
 
+.contact-me-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(32px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-content {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-me-close-button {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  width: 100%;
+  height: 38px;
+  padding: 12px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-me-close-button:hover {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .top-settings {
   display: flex;
   padding: 10px;
