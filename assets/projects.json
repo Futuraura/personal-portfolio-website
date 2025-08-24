@@ -1,0 +1,23 @@
+{
+  "active": 0,
+  "projects": [
+    {
+      "name": "Project1",
+      "description": "Description for Project1",
+      "stack": ["html", "css", "javascript", "python"],
+      "image": "img/projects/project1.webp"
+    },
+    {
+      "name": "Project2",
+      "description": "Description for Project2",
+      "stack": ["html", "css", "javascript", "python"],
+      "image": "img/projects/project2.webp"
+    },
+    {
+      "name": "Project3",
+      "description": "Description for Project3",
+      "stack": ["html", "css", "javascript", "python"],
+      "image": "img/projects/project3.webp"
+    }
+  ]
+}
