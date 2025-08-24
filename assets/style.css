@@ -561,6 +561,26 @@ main {
   grid-column: 3 / span 2;
 }
 
+.main-useless-card-text {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-useless-card-text {
+  color: rgba(255, 255, 255, 0.5);
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 @media screen and (max-width: 1036px) {
   main {
     padding: 30px 30px;
