@@ -1,3 +1,7 @@
+const contactMeBtn = document.getElementById("contactMeBtn");
+const contactMeModal = document.getElementById("contactMeModal");
+const contactMeCloseBtn = document.getElementById("contactMeCloseBtn");
+
 fetch("assets/skills.json")
   .then((response) => response.json())
   .then((skills) => {
@@ -22,3 +26,15 @@ fetch("assets/skills.json")
       futureSkillsList.appendChild(skillElement);
     });
   });
+
+fetch("assets/projects.json")
+  .then((response) => response.json())
+  .then((projects) => {});
+
+contactMeBtn.addEventListener("click", () => {
+  contactMeModal.style.display = "flex";
+});
+
+contactMeCloseBtn.addEventListener("click", () => {
+  contactMeModal.style.display = "none";
+});
