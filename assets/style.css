@@ -583,6 +583,23 @@ main {
 
 @media screen and (max-width: 1036px) {
   main {
-    padding: 30px 30px;
+    padding: 15px 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .inner-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .weather-time-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wt-container {
+    width: 100%;
   }
 }
