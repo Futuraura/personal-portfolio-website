@@ -200,8 +200,7 @@ main {
 
   color: #fff;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -275,8 +274,7 @@ main {
 
 .card-file-title p {
   color: rgba(255, 255, 255, 0.5);
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -324,8 +322,7 @@ main {
 
   color: #fff;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -427,8 +424,7 @@ main {
 .project-showcase-heading {
   color: #fff;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -438,8 +434,7 @@ main {
 .project-showcase-title {
   color: #fff;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -474,8 +469,7 @@ main {
 
   color: #fff;
   text-align: center;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -554,8 +548,7 @@ main {
 
 .spotify-now-playing {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -564,8 +557,7 @@ main {
 
 .spotify-author {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -574,8 +566,7 @@ main {
 
 .spotify-time-elapsed {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -648,8 +639,7 @@ main {
 
 .main-useless-card-text {
   color: #fff;
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -658,8 +648,7 @@ main {
 
 .sub-useless-card-text {
   color: rgba(255, 255, 255, 0.5);
-  leading-trim: both;
-  text-edge: cap;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
