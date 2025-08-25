@@ -3,7 +3,7 @@ const contactMeModal = document.getElementById("contactMeModal");
 const contactMeCloseBtn = document.getElementById("contactMeCloseBtn");
 
 fetch("assets/skills.json")
-  .then((response) => response.json())
+  .then((r) => r.json())
   .then((skills) => {
     const skillsList = document.getElementById("skills-list");
     const futureSkillsList = document.getElementById("future-skills-list");
@@ -28,7 +28,7 @@ fetch("assets/skills.json")
   });
 
 fetch("assets/projects.json")
-  .then((response) => response.json())
+  .then((r) => r.json())
   .then((projects) => {});
 
 contactMeBtn.addEventListener("click", () => {
