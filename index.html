@@ -263,7 +263,7 @@
                 </svg>
                 <p>time.js</p>
               </div>
-              <p class="main-useless-card-text">ss:mm:hh</p>
+              <p class="main-useless-card-text" id="timeDisplay">ss:mm:hh</p>
               <p class="sub-useless-card-text">GMT+3</p>
             </div>
             <div class="date-container wt-container">
@@ -286,8 +286,8 @@
                 </svg>
                 <p>date.js</p>
               </div>
-              <p class="main-useless-card-text">dd/mm</p>
-              <p class="sub-useless-card-text">yyyy</p>
+              <p class="main-useless-card-text" id="dateDisplay">dd/mm</p>
+              <p class="sub-useless-card-text" id="yearDisplay">yyyy</p>
             </div>
             <div class="weather-container wt-container">
               <div class="card-file-title">
@@ -306,12 +306,18 @@
                 </svg>
                 <p>weather.json</p>
               </div>
-              <p class="main-useless-card-text">Sunny @ x rad</p>
+              <p class="main-useless-card-text" id="weatherDisplay">
+                Sunny @ x rad
+              </p>
               <p class="sub-useless-card-text">Turku, FI</p>
             </div>
           </div>
         </div>
       </div>
+      <p class="copyright-notice" style="color: rgba(255, 255, 255, 0.2)">
+        Copyright <span id="current-copyright-year">2025</span> Mark P. All
+        rights Reserved.
+      </p>
     </main>
     <script src="assets/script.js"></script>
   </body>
