@@ -1,5 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
+.quote-unquote-copy {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.13);
+  width: 100%;
+}
+
+.quote-unquote-copy .contact-label {
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 6px;
+}
+
+.quote-unquote-copy p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 8px 0 0;
+  letter-spacing: 0.01em;
+  user-select: all;
+  font-family: inherit;
+}
+
+.copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+  outline: none;
+  position: relative;
+}
+
+.copy-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.copy-btn svg {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.copy-btn:active,
+.copy-btn:focus {
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.copy-btn.copied {
+  background: rgba(0, 255, 128, 0.18);
+  color: #00ff80;
+}
+
+.copy-btn .copy-feedback {
+  display: none;
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.copy-btn.copied .copy-feedback {
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;

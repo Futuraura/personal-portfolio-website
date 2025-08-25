@@ -133,3 +133,15 @@ fetch(
 updateTime();
 
 setInterval(updateTime, 1000);
+
+document.querySelectorAll(".copy-btn").forEach((btn) => {
+  btn.addEventListener("click", function () {
+    const targetId = btn.getAttribute("data-copy-target");
+    const text = document.getElementById(targetId)?.textContent?.trim();
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.classList.add("copied");
+      setTimeout(() => btn.classList.remove("copied"), 1200);
+    });
+  });
+});
