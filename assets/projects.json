@@ -2,22 +2,19 @@
   "active": 0,
   "projects": [
     {
-      "name": "Project1",
-      "description": "Description for Project1",
-      "stack": ["html", "css", "javascript", "python"],
-      "image": "img/projects/project1.webp"
-    },
-    {
-      "name": "Project2",
-      "description": "Description for Project2",
-      "stack": ["html", "css", "javascript", "python"],
-      "image": "img/projects/project2.webp"
-    },
-    {
-      "name": "Project3",
-      "description": "Description for Project3",
-      "stack": ["html", "css", "javascript", "python"],
-      "image": "img/projects/project3.webp"
+      "name": "Gallery Gambling",
+      "description": "Description for Gallery Gambling",
+      "stack": [
+        "html5",
+        "css3",
+        "javascript",
+        "nodejs",
+        "socketio",
+        "ubuntu",
+        "redis"
+      ],
+      "image": "./assets/img/projects/gallerygambling_project.png",
+      "link": "https://github.com/futuraura/gallery-gambling-game"
     }
   ]
 }
