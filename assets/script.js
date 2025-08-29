@@ -2,7 +2,7 @@ const contactMeBtn = document.getElementById("contactMeBtn");
 const contactMeModal = document.getElementById("contactMeModal");
 const contactMeCloseBtn = document.getElementById("contactMeCloseBtn");
 
-fetch("assets/skills.json")
+fetch("./assets/skills.json")
   .then((r) => r.json())
   .then((skills) => {
     const skillsList = document.getElementById("skills-list");
@@ -27,9 +27,45 @@ fetch("assets/skills.json")
     });
   });
 
-fetch("assets/projects.json")
+const currentProjectTitle = document.getElementById("project-title");
+const currentProjectStackDiv = document.getElementById(
+  "project-stack-container"
+);
+const currentProjectContainer = document.getElementById("project-preview");
+const currentProjectLink = document.getElementById("current-project-link");
+
+const projectStackIcons = {
+  bash: "./assets/svg/bash.svg",
+  css3: "./assets/svg/css3.svg",
+  database: "./assets/svg/database.svg",
+  docker: "./assets/svg/docker.svg",
+  git: "./assets/svg/git.svg",
+  html5: "./assets/svg/html5.svg",
+  javascript: "./assets/svg/javascript.svg",
+  nodejs: "./assets/svg/nodejs.svg",
+  redis: "./assets/svg/redis.svg",
+  python: "./assets/svg/python.svg",
+  ubuntu: "./assets/svg/ubuntu.svg",
+  socketio: "./assets/svg/socketio.svg",
+  vscode: "./assets/svg/vscode.svg",
+};
+
+fetch("./assets/projects.json")
   .then((r) => r.json())
-  .then((projects) => {});
+  .then((projects) => {
+    let currentProject = projects.projects[projects.active];
+
+    currentProjectContainer.style.background = `url(${currentProject.image}) center / cover no-repeat`;
+    currentProjectLink.href = currentProject.link;
+    currentProjectTitle.innerText = currentProject.name;
+    currentProjectStackDiv.innerHTML = "";
+
+    currentProject.stack.forEach((codeLang) => {
+      let imageElement = document.createElement("img");
+      imageElement.src = projectStackIcons[codeLang] || "";
+      currentProjectStackDiv.appendChild(imageElement);
+    });
+  });
 
 contactMeBtn.addEventListener("click", () => {
   contactMeModal.style.display = "flex";
