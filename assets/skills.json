@@ -53,6 +53,22 @@
     {
       "name": "Docker",
       "svgDir": "assets/svg/docker.svg"
+    },
+    {
+      "name": "Node.js",
+      "svgDir": "assets/svg/nodejs.svg"
+    },
+    {
+      "name": "Socket.IO",
+      "svgDir": "assets/svg/socketio.svg"
+    },
+    {
+      "name": "Express.js",
+      "svgDir": "assets/svg/express.svg"
+    },
+    {
+      "name": "Redis",
+      "svgDir": "assets/svg/redis.svg"
     }
   ]
 }
