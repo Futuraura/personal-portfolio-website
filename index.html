@@ -331,22 +331,26 @@
               </svg>
               <p>projects.json</p>
             </div>
-            <div class="project-showcase">
+            <div class="project-showcase" id="project-preview">
               <div class="project-showcase-desc">
                 <p class="project-showcase-heading">Current Project</p>
-                <p class="project-showcase-title" id="project-stack-title">
-                  Hello World!
-                </p>
+                <a
+                  target="_blank"
+                  href="#"
+                  id="current-project-link"
+                  class="current-project-link"
+                >
+                  <p class="project-showcase-title" id="project-title"></p>
+                </a>
                 <p class="project-showcase-heading">Project Stack</p>
                 <div
                   class="project-stack-container"
                   id="project-stack-container"
-                >
-                  <img src="assets/svg/bash.svg" alt="Bash" />
-                  <img src="assets/svg/javascript.svg" alt="Javascript" />
-                </div>
+                ></div>
               </div>
             </div>
+            <!--
+            Very non working and non active piece of code below
             <button class="view-all-projects-button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
