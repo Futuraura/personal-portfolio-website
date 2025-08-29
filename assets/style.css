@@ -384,7 +384,7 @@ main {
 
   border-radius: 8px;
   outline: 2px solid rgba(255, 255, 255, 0.4);
-  background: url(img/project.webp) lightgray 50% / cover no-repeat;
+  background: url(img/project.webp) cover no-repeat;
 }
 
 .project-showcase-desc {
@@ -419,6 +419,15 @@ main {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.current-project-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.current-project-link:hover {
+  color: #00ff80;
 }
 
 .project-stack-container {
