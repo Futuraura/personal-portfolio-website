@@ -64,7 +64,7 @@
     },
     {
       "name": "Express.js",
-      "svgDir": "assets/svg/express.svg"
+      "svgDir": "assets/svg/expressjs.svg"
     },
     {
       "name": "Redis",

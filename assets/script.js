@@ -39,6 +39,7 @@ const projectStackIcons = {
   css3: "./assets/svg/css3.svg",
   database: "./assets/svg/database.svg",
   docker: "./assets/svg/docker.svg",
+  expressjs: "./assets/svg/expressjs.svg",
   git: "./assets/svg/git.svg",
   html5: "./assets/svg/html5.svg",
   javascript: "./assets/svg/javascript.svg",
